@@ -1,0 +1,82 @@
+<web-app>
+
+<servlet>
+ <servlet-name>login</servlet-name>
+ <servlet-class>login</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>login</servlet-name>
+<url-pattern>/static/res/login</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>register</servlet-name>
+ <servlet-class>register</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>register</servlet-name>
+<url-pattern>/static/res/register</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>logout</servlet-name>
+ <servlet-class>logout</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>logout</servlet-name>
+<url-pattern>/static/res/logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>sell</servlet-name>
+ <servlet-class>sell</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>sell</servlet-name>
+<url-pattern>/static/res/sell</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>setsession</servlet-name>
+ <servlet-class>setsession</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>setsession</servlet-name>
+<url-pattern>/static/res/setsession</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>properties</servlet-name>
+ <servlet-class>properties</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>properties</servlet-name>
+<url-pattern>/static/res/properties</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>moderator</servlet-name>
+ <servlet-class>moderator</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>moderator</servlet-name>
+<url-pattern>/static/res/moderator</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>view</servlet-name>
+ <servlet-class>view</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>view</servlet-name>
+<url-pattern>/static/res/view</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>searchbox</servlet-name>
+ <servlet-class>searchbox</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>searchbox</servlet-name>
+<url-pattern>/static/res/searchbox</url-pattern>
+</servlet-mapping>
+
+</web-app>
